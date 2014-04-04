@@ -54,7 +54,6 @@ std::string diamond(char letter)
     std::string res = "";
 
     if (letter < 'A' or letter > 'Z') {
-        //throw std::string("Please give letter between 'A' and 'Z'.");
         return "Please give letter between 'A' and 'Z'.\n";
     }
 
